@@ -1,0 +1,2491 @@
+cscope 15 $HOME/Pulpit/Kalkulator               0000015026
+	@/home/student/Pulpit/Kalkulator/KalkulatorApp.cpp
+
+10 
+	~"K®kuÏtÜAµ.h
+"
+
+13 
+	~"K®kuÏtÜMaš.h
+"
+
+14 
+	~<wx/image.h
+>
+
+17 
+IMPLEMENT_APP
+(
+K®kuÏtÜAµ
+);
+
+19 
+boŞ
+ 
+	gK®kuÏtÜAµ
+::
+	$OnIn™
+()
+
+22 
+boŞ
+ 
+wxsOK
+ = 
+Œue
+;
+
+23 
+	`wxIn™AÎImageHªdËrs
+();
+
+24 iàĞ
+wxsOK
+ )
+
+26 
+K®kuÏtÜF¿me
+* 
+F¿me
+ = 
+Ãw
+ 
+	`K®kuÏtÜF¿me
+(0);
+
+27 
+F¿me
+->
+	`Show
+();
+
+28 
+	`S‘TİWšdow
+(
+F¿me
+);
+
+31  
+wxsOK
+;
+
+33 
+	}
+}
+
+	@/home/student/Pulpit/Kalkulator/KalkulatorApp.h
+
+10 #iâdeà
+KALKULATORAPP_H
+
+
+11 
+	#KALKULATORAPP_H
+
+
+	)
+
+13 
+	~<wx/­p.h
+>
+
+15 şas 
+	cK®kuÏtÜAµ
+ : 
+public
+ 
+wxAµ
+
+
+17 
+public
+:
+
+18 
+vœtu®
+ 
+boŞ
+ 
+OnIn™
+();
+
+	@/home/student/Pulpit/Kalkulator/KalkulatorMain.cpp
+
+10 
+	~"K®kuÏtÜMaš.h
+"
+
+11 
+	~<wx/msgdlg.h
+>
+
+14 
+	~<wx/¡ršg.h
+>
+
+15 
+	~<wx/š.h
+>
+
+19 
+	ewxbudšfofÜm©
+ {
+
+20 
+	mshÜt_f
+, 
+	mlÚg_f
+ };
+
+22 
+wxSŒšg
+ 
+	$wxbudšfo
+(
+wxbudšfofÜm©
+ 
+fÜm©
+)
+
+24 
+wxSŒšg
+ 
+	`wxbud
+(
+wxVERSION_STRING
+);
+
+26 ià(
+fÜm©
+ =ğ
+lÚg_f
+ )
+
+28 #ià
+	`defšed
+(
+__WXMSW__
+)
+
+29 
+wxbud
+ << 
+	`_T
+("-Windows");
+
+30 #–ià
+	`defšed
+(
+__UNIX__
+)
+
+31 
+wxbud
+ << 
+	`_T
+("-Linux");
+
+34 #ià
+wxUSE_UNICODE
+
+
+35 
+wxbud
+ << 
+	`_T
+("-Unicode build");
+
+37 
+wxbud
+ << 
+	`_T
+("-ANSI build");
+
+41  
+wxbud
+;
+
+42 
+	}
+}
+
+45 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_TEXTCTRL1
+ = 
+wxNewId
+();
+
+46 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON1
+ = 
+wxNewId
+();
+
+47 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON2
+ = 
+wxNewId
+();
+
+48 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON3
+ = 
+wxNewId
+();
+
+49 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON4
+ = 
+wxNewId
+();
+
+50 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON5
+ = 
+wxNewId
+();
+
+51 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON6
+ = 
+wxNewId
+();
+
+52 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON7
+ = 
+wxNewId
+();
+
+53 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON8
+ = 
+wxNewId
+();
+
+54 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON9
+ = 
+wxNewId
+();
+
+55 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON10
+ = 
+wxNewId
+();
+
+56 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON11
+ = 
+wxNewId
+();
+
+57 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON12
+ = 
+wxNewId
+();
+
+58 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON13
+ = 
+wxNewId
+();
+
+59 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON14
+ = 
+wxNewId
+();
+
+60 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON15
+ = 
+wxNewId
+();
+
+61 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON16
+ = 
+wxNewId
+();
+
+62 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON17
+ = 
+wxNewId
+();
+
+63 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON18
+ = 
+wxNewId
+();
+
+64 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON19
+ = 
+wxNewId
+();
+
+65 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_BUTTON20
+ = 
+wxNewId
+();
+
+66 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_MENUITEM1
+ = 
+wxNewId
+();
+
+67 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+idM’uAbout
+ = 
+wxNewId
+();
+
+68 cÚ¡ 
+	gK®kuÏtÜF¿me
+::
+ID_STATUSBAR1
+ = 
+wxNewId
+();
+
+71 
+	$BEGIN_EVENT_TABLE
+(
+K®kuÏtÜF¿me
+,
+wxF¿me
+)
+
+74 
+	$END_EVENT_TABLE
+()
+
+76 
+K®kuÏtÜF¿me
+::
+	$K®kuÏtÜF¿me
+(
+wxWšdow
+* 
+·»Á
+,
+wxWšdowID
+ 
+id
+)
+
+79 
+wxM’uI‹m
+* 
+M’uI‹m2
+;
+
+80 
+wxM’uI‹m
+* 
+M’uI‹m1
+;
+
+81 
+wxGridSiz”
+* 
+GridSiz”1
+;
+
+82 
+wxM’u
+* 
+M’u1
+;
+
+83 
+wxBoxSiz”
+* 
+BoxSiz”1
+;
+
+84 
+wxM’uB¬
+* 
+M’uB¬1
+;
+
+85 
+wxM’u
+* 
+M’u2
+;
+
+87 
+	`C»©e
+(
+·»Á
+, 
+wxID_ANY
+, 
+wxEm±ySŒšg
+, 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 
+wxDEFAULT_FRAME_STYLE
+, 
+	`_T
+("wxID_ANY"));
+
+88 
+	`S‘Cl›ÁSize
+(
+	`wxSize
+(471,450));
+
+89 
+BoxSiz”1
+ = 
+Ãw
+ 
+	`wxBoxSiz”
+(
+wxVERTICAL
+);
+
+90 
+TextCŒl1
+ = 
+Ãw
+ 
+	`wxTextCŒl
+(
+this
+, 
+ID_TEXTCTRL1
+, 
+wxEm±ySŒšg
+, 
+wxDeçuÉPos™iÚ
+, 
+	`wxSize
+(437,40), 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_TEXTCTRL1"));
+
+91 
+BoxSiz”1
+->
+	`Add
+(
+TextCŒl1
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+92 
+GridSiz”1
+ = 
+Ãw
+ 
+	`wxGridSiz”
+(5, 5, 0, 0);
+
+93 
+Bu‰Ú1
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON1
+, 
+	`_
+("1"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON1"));
+
+94 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú1
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+95 
+Bu‰Ú2
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON2
+, 
+	`_
+("2"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON2"));
+
+96 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú2
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+97 
+Bu‰Ú3
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON3
+, 
+	`_
+("3"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON3"));
+
+98 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú3
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+99 
+Bu‰Ú4
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON4
+, 
+	`_
+("C"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON4"));
+
+100 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú4
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+101 
+Bu‰Ú5
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON5
+, 
+	`_
+("CE"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON5"));
+
+102 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú5
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+103 
+Bu‰Ú6
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON6
+, 
+	`_
+("4"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON6"));
+
+104 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú6
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+105 
+Bu‰Ú7
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON7
+, 
+	`_
+("5"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON7"));
+
+106 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú7
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+107 
+Bu‰Ú8
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON8
+, 
+	`_
+("6"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON8"));
+
+108 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú8
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+109 
+Bu‰Ú9
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON9
+, 
+	`_
+("*"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON9"));
+
+110 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú9
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+111 
+Bu‰Ú10
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON10
+, 
+	`_
+("/"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON10"));
+
+112 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú10
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+113 
+Bu‰Ú11
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON11
+, 
+	`_
+("7"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON11"));
+
+114 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú11
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+115 
+Bu‰Ú12
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON12
+, 
+	`_
+("8"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON12"));
+
+116 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú12
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+117 
+Bu‰Ú13
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON13
+, 
+	`_
+("9"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON13"));
+
+118 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú13
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+119 
+Bu‰Ú14
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON14
+, 
+	`_
+("x^2"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON14"));
+
+120 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú14
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+121 
+Bu‰Ú15
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON15
+, 
+	`_
+("sq¹(x)"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON15"));
+
+122 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú15
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+123 
+Bu‰Ú16
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON16
+, 
+	`_
+("."), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON16"));
+
+124 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú16
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+125 
+Bu‰Ú17
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON17
+, 
+	`_
+("0"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON17"));
+
+126 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú17
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+127 
+Bu‰Ú18
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON18
+, 
+	`_
+("="), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON18"));
+
+128 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú18
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+129 
+Bu‰Ú19
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON19
+, 
+	`_
+("-"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON19"));
+
+130 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú19
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+131 
+Bu‰Ú20
+ = 
+Ãw
+ 
+	`wxBu‰Ú
+(
+this
+, 
+ID_BUTTON20
+, 
+	`_
+("+"), 
+wxDeçuÉPos™iÚ
+, 
+wxDeçuÉSize
+, 0, 
+wxDeçuÉV®id©Ü
+, 
+	`_T
+("ID_BUTTON20"));
+
+132 
+GridSiz”1
+->
+	`Add
+(
+Bu‰Ú20
+, 1, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+133 
+BoxSiz”1
+->
+	`Add
+(
+GridSiz”1
+, 5, 
+wxALL
+|
+wxALIGN_CENTER_HORIZONTAL
+|
+wxALIGN_CENTER_VERTICAL
+, 5);
+
+134 
+	`S‘Siz”
+(
+BoxSiz”1
+);
+
+135 
+M’uB¬1
+ = 
+Ãw
+ 
+	`wxM’uB¬
+();
+
+136 
+M’u1
+ = 
+Ãw
+ 
+	`wxM’u
+();
+
+137 
+M’uI‹m1
+ = 
+Ãw
+ 
+	`wxM’uI‹m
+(
+M’u1
+, 
+ID_MENUITEM1
+, 
+	`_
+("Qu™\tAÉ-F4"), _("Qu™h­¶iÿtiÚ"), 
+wxITEM_NORMAL
+);
+
+138 
+M’u1
+->
+	`Aµ’d
+(
+M’uI‹m1
+);
+
+139 
+M’uB¬1
+->
+	`Aµ’d
+(
+M’u1
+, 
+	`_
+("&File"));
+
+140 
+M’u2
+ = 
+Ãw
+ 
+	`wxM’u
+();
+
+141 
+M’uI‹m2
+ = 
+Ãw
+ 
+	`wxM’uI‹m
+(
+M’u2
+, 
+idM’uAbout
+, 
+	`_
+("About\tF1"), _("Show infØabouˆthi ­¶iÿtiÚ"), 
+wxITEM_NORMAL
+);
+
+142 
+M’u2
+->
+	`Aµ’d
+(
+M’uI‹m2
+);
+
+143 
+M’uB¬1
+->
+	`Aµ’d
+(
+M’u2
+, 
+	`_
+("Help"));
+
+144 
+	`S‘M’uB¬
+(
+M’uB¬1
+);
+
+145 
+StusB¬1
+ = 
+Ãw
+ 
+	`wxStusB¬
+(
+this
+, 
+ID_STATUSBAR1
+, 0, 
+	`_T
+("ID_STATUSBAR1"));
+
+146 
+__wxStusB¬Widths_1
+[1] = { -1 };
+
+147 
+__wxStusB¬StyËs_1
+[1] = { 
+wxSB_NORMAL
+ };
+
+148 
+StusB¬1
+->
+	`S‘F›ldsCouÁ
+(1,
+__wxStusB¬Widths_1
+);
+
+149 
+StusB¬1
+->
+	`S‘StusStyËs
+(1,
+__wxStusB¬StyËs_1
+);
+
+150 
+	`S‘StusB¬
+(
+StusB¬1
+);
+
+151 
+	`S‘Siz”
+(
+BoxSiz”1
+);
+
+152 
+	`Layout
+();
+
+154 
+	`CÚÃù
+(
+ID_BUTTON1
+,
+wxEVT_COMMAND_BUTTON_CLICKED
+,(
+wxObjeùEv’tFunùiÚ
+)&
+K®kuÏtÜF¿me
+::
+OnBu‰Ú1Click
+);
+
+155 
+	`CÚÃù
+(
+ID_MENUITEM1
+,
+wxEVT_COMMAND_MENU_SELECTED
+,(
+wxObjeùEv’tFunùiÚ
+)&
+K®kuÏtÜF¿me
+::
+OnQu™
+);
+
+156 
+	`CÚÃù
+(
+idM’uAbout
+,
+wxEVT_COMMAND_MENU_SELECTED
+,(
+wxObjeùEv’tFunùiÚ
+)&
+K®kuÏtÜF¿me
+::
+OnAbout
+);
+
+158 
+	}
+}
+
+160 
+	gK®kuÏtÜF¿me
+::~
+	$K®kuÏtÜF¿me
+()
+
+164 
+	}
+}
+
+166 
+K®kuÏtÜF¿me
+::
+	$OnQu™
+(
+wxCommªdEv’t
+& 
+ev’t
+)
+
+168 
+	`Clo£
+();
+
+169 
+	}
+}
+
+171 
+	gK®kuÏtÜF¿me
+::
+	$OnAbout
+(
+wxCommªdEv’t
+& 
+ev’t
+)
+
+173 
+wxSŒšg
+ 
+msg
+ = 
+	`wxbudšfo
+(
+lÚg_f
+);
+
+174 
+	`wxMes§geBox
+(
+msg
+, 
+	`_
+("Welcomeo..."));
+
+175 
+	}
+}
+
+177 
+	gK®kuÏtÜF¿me
+::
+	$OnBu‰Ú1Click
+(
+wxCommªdEv’t
+& 
+ev’t
+)
+
+179 
+TextCŒl1
+->
+	`S‘V®ue
+("1");
+
+180 
+	`Layout
+();
+
+181 
+	}
+}
+
+	@/home/student/Pulpit/Kalkulator/KalkulatorMain.h
+
+10 #iâdeà
+KALKULATORMAIN_H
+
+
+11 
+	#KALKULATORMAIN_H
+
+
+	)
+
+14 
+	~<wx/siz”.h
+>
+
+15 
+	~<wx/bu‰Ú.h
+>
+
+16 
+	~<wx/m’u.h
+>
+
+17 
+	~<wx/¡©usbr.h
+>
+
+18 
+	~<wx/äame.h
+>
+
+19 
+	~<wx/‹xtù¾.h
+>
+
+22 şas 
+	cK®kuÏtÜF¿me
+: 
+public
+ 
+wxF¿me
+
+
+24 
+public
+:
+
+26 
+K®kuÏtÜF¿me
+(
+wxWšdow
+* 
+·»Á
+,
+wxWšdowID
+ 
+id
+ = -1);
+
+27 
+	mvœtu®
+ ~
+K®kuÏtÜF¿me
+();
+
+29 
+	m´iv©e
+:
+
+32 
+OnQu™
+(
+wxCommªdEv’t
+& 
+ev’t
+);
+
+33 
+OnAbout
+(
+wxCommªdEv’t
+& 
+ev’t
+);
+
+34 
+OnBu‰Ú1Click
+(
+wxCommªdEv’t
+& 
+ev’t
+);
+
+38 cÚ¡ 
+	mID_TEXTCTRL1
+;
+
+39 cÚ¡ 
+	mID_BUTTON1
+;
+
+40 cÚ¡ 
+	mID_BUTTON2
+;
+
+41 cÚ¡ 
+	mID_BUTTON3
+;
+
+42 cÚ¡ 
+	mID_BUTTON4
+;
+
+43 cÚ¡ 
+	mID_BUTTON5
+;
+
+44 cÚ¡ 
+	mID_BUTTON6
+;
+
+45 cÚ¡ 
+	mID_BUTTON7
+;
+
+46 cÚ¡ 
+	mID_BUTTON8
+;
+
+47 cÚ¡ 
+	mID_BUTTON9
+;
+
+48 cÚ¡ 
+	mID_BUTTON10
+;
+
+49 cÚ¡ 
+	mID_BUTTON11
+;
+
+50 cÚ¡ 
+	mID_BUTTON12
+;
+
+51 cÚ¡ 
+	mID_BUTTON13
+;
+
+52 cÚ¡ 
+	mID_BUTTON14
+;
+
+53 cÚ¡ 
+	mID_BUTTON15
+;
+
+54 cÚ¡ 
+	mID_BUTTON16
+;
+
+55 cÚ¡ 
+	mID_BUTTON17
+;
+
+56 cÚ¡ 
+	mID_BUTTON18
+;
+
+57 cÚ¡ 
+	mID_BUTTON19
+;
+
+58 cÚ¡ 
+	mID_BUTTON20
+;
+
+59 cÚ¡ 
+	mID_MENUITEM1
+;
+
+60 cÚ¡ 
+	midM’uAbout
+;
+
+61 cÚ¡ 
+	mID_STATUSBAR1
+;
+
+65 
+wxStusB¬
+* 
+	mStusB¬1
+;
+
+66 
+wxBu‰Ú
+* 
+	mBu‰Ú19
+;
+
+67 
+wxBu‰Ú
+* 
+	mBu‰Ú16
+;
+
+68 
+wxBu‰Ú
+* 
+	mBu‰Ú4
+;
+
+69 
+wxBu‰Ú
+* 
+	mBu‰Ú1
+;
+
+70 
+wxBu‰Ú
+* 
+	mBu‰Ú2
+;
+
+71 
+wxBu‰Ú
+* 
+	mBu‰Ú3
+;
+
+72 
+wxBu‰Ú
+* 
+	mBu‰Ú12
+;
+
+73 
+wxTextCŒl
+* 
+	mpŞe
+;
+
+74 
+wxBu‰Ú
+* 
+	mBu‰Ú8
+;
+
+75 
+wxBu‰Ú
+* 
+	mBu‰Ú5
+;
+
+76 
+wxBu‰Ú
+* 
+	mBu‰Ú17
+;
+
+77 
+wxBu‰Ú
+* 
+	mBu‰Ú9
+;
+
+78 
+wxBu‰Ú
+* 
+	mBu‰Ú15
+;
+
+79 
+wxBu‰Ú
+* 
+	mBu‰Ú14
+;
+
+80 
+wxBu‰Ú
+* 
+	mBu‰Ú18
+;
+
+81 
+wxBu‰Ú
+* 
+	mBu‰Ú11
+;
+
+82 
+wxBu‰Ú
+* 
+	mBu‰Ú7
+;
+
+83 
+wxBu‰Ú
+* 
+	mBu‰Ú6
+;
+
+84 
+wxBu‰Ú
+* 
+	mBu‰Ú13
+;
+
+85 
+wxBu‰Ú
+* 
+	mBu‰Ú10
+;
+
+86 
+wxBu‰Ú
+* 
+	mBu‰Ú20
+;
+
+89 
+DECLARE_EVENT_TABLE
+()
+
+	@/home/student/Pulpit/Kalkulator/wxsmith/Kalkulatorframe.wxs
+
+1 <?
+xml
+ 
+	gv”siÚ
+="1.0" 
+’codšg
+="utf-8" ?>
+
+2 <
+wxsm™h
+>
+
+3 <
+objeù
+ 
+şass
+="wxF¿me" 
+Çme
+="KalkulatorFrame">
+
+4 <
+objeù
+ 
+şass
+="wxM’uB¬" 
+v¬ŸbË
+="M’uB¬1" 
+memb”
+="no">
+
+5 <
+objeù
+ 
+şass
+="wxM’u" 
+v¬ŸbË
+="M’u1" 
+memb”
+="no">
+
+6 <
+Ïb–
+>&
+amp
+;
+	gFe
+</
+	gÏb–
+>
+
+7 <
+objeù
+ 
+	gşass
+="wxM’uI‹m" 
+Çme
+="idM’uQu™" 
+v¬ŸbË
+="M’uI‹m1" 
+memb”
+="no">
+
+8 <
+Ïb–
+>
+Qu™
+</label>
+
+9 <
+acûl
+>
+AÉ
+-
+F4
+</accel>
+
+10 <
+h–p
+>
+Qu™
+ 
+the
+ 
+­¶iÿtiÚ
+</help>
+
+11 <
+hªdËr
+ 
+funùiÚ
+="OnQu™" 
+’Œy
+="EVT_MENU" />
+
+12 </
+objeù
+>
+
+13 </
+objeù
+>
+
+14 <
+objeù
+ 
+şass
+="wxM’u" 
+v¬ŸbË
+="M’u2" 
+memb”
+="no">
+
+15 <
+Ïb–
+>
+H–p
+</label>
+
+16 <
+objeù
+ 
+şass
+="wxM’uI‹m" 
+Çme
+="idM’uAbout" 
+v¬ŸbË
+="M’uI‹m2" 
+memb”
+="no">
+
+17 <
+Ïb–
+>
+About
+</label>
+
+18 <
+acûl
+>
+F1
+</accel>
+
+19 <
+h–p
+>
+Show
+ 
+šfo
+ 
+about
+ 
+this
+ 
+­¶iÿtiÚ
+</help>
+
+20 <
+hªdËr
+ 
+funùiÚ
+="OnAbout" 
+’Œy
+="EVT_MENU" />
+
+21 </
+objeù
+>
+
+22 </
+objeù
+>
+
+23 </
+objeù
+>
+
+24 <
+objeù
+ 
+şass
+="wxStusB¬" 
+Çme
+="ID_STATUSBAR1" 
+v¬ŸbË
+="StusB¬1" 
+memb”
+="yes">
+
+25 <
+f›lds
+>1</fields>
+
+26 <
+widths
+>-1</widths>
+
+27 <
+¡yËs
+>
+wxSB_NORMAL
+</styles>
+
+28 </
+objeù
+>
+
+29 </
+objeù
+>
+
+30 </
+wxsm™h
+>
+
+	@KalkulatorApp.h
+
+10 #iâdeà
+KALKULATORAPP_H
+
+
+11 
+	#KALKULATORAPP_H
+
+
+	)
+
+13 
+	~<wx/­p.h
+>
+
+15 şas 
+	cK®kuÏtÜAµ
+ : 
+public
+ 
+wxAµ
+
+
+17 
+public
+:
+
+18 
+vœtu®
+ 
+boŞ
+ 
+OnIn™
+();
+
+	@KalkulatorMain.h
+
+10 #iâdeà
+KALKULATORMAIN_H
+
+
+11 
+	#KALKULATORMAIN_H
+
+
+	)
+
+14 
+	~<wx/siz”.h
+>
+
+15 
+	~<wx/bu‰Ú.h
+>
+
+16 
+	~<wx/m’u.h
+>
+
+17 
+	~<wx/¡©usbr.h
+>
+
+18 
+	~<wx/äame.h
+>
+
+19 
+	~<wx/‹xtù¾.h
+>
+
+22 şas 
+	cK®kuÏtÜF¿me
+: 
+public
+ 
+wxF¿me
+
+
+24 
+public
+:
+
+26 
+K®kuÏtÜF¿me
+(
+wxWšdow
+* 
+·»Á
+,
+wxWšdowID
+ 
+id
+ = -1);
+
+27 
+	mvœtu®
+ ~
+K®kuÏtÜF¿me
+();
+
+29 
+	m´iv©e
+:
+
+32 
+OnQu™
+(
+wxCommªdEv’t
+& 
+ev’t
+);
+
+33 
+OnAbout
+(
+wxCommªdEv’t
+& 
+ev’t
+);
+
+34 
+OnBu‰Ú1Click
+(
+wxCommªdEv’t
+& 
+ev’t
+);
+
+38 cÚ¡ 
+	mID_TEXTCTRL1
+;
+
+39 cÚ¡ 
+	mID_BUTTON1
+;
+
+40 cÚ¡ 
+	mID_BUTTON2
+;
+
+41 cÚ¡ 
+	mID_BUTTON3
+;
+
+42 cÚ¡ 
+	mID_BUTTON4
+;
+
+43 cÚ¡ 
+	mID_BUTTON5
+;
+
+44 cÚ¡ 
+	mID_BUTTON6
+;
+
+45 cÚ¡ 
+	mID_BUTTON7
+;
+
+46 cÚ¡ 
+	mID_BUTTON8
+;
+
+47 cÚ¡ 
+	mID_BUTTON9
+;
+
+48 cÚ¡ 
+	mID_BUTTON10
+;
+
+49 cÚ¡ 
+	mID_BUTTON11
+;
+
+50 cÚ¡ 
+	mID_BUTTON12
+;
+
+51 cÚ¡ 
+	mID_BUTTON13
+;
+
+52 cÚ¡ 
+	mID_BUTTON14
+;
+
+53 cÚ¡ 
+	mID_BUTTON15
+;
+
+54 cÚ¡ 
+	mID_BUTTON16
+;
+
+55 cÚ¡ 
+	mID_BUTTON17
+;
+
+56 cÚ¡ 
+	mID_BUTTON18
+;
+
+57 cÚ¡ 
+	mID_BUTTON19
+;
+
+58 cÚ¡ 
+	mID_BUTTON20
+;
+
+59 cÚ¡ 
+	mID_MENUITEM1
+;
+
+60 cÚ¡ 
+	midM’uAbout
+;
+
+61 cÚ¡ 
+	mID_STATUSBAR1
+;
+
+65 
+wxStusB¬
+* 
+	mStusB¬1
+;
+
+66 
+wxBu‰Ú
+* 
+	mBu‰Ú19
+;
+
+67 
+wxBu‰Ú
+* 
+	mBu‰Ú16
+;
+
+68 
+wxBu‰Ú
+* 
+	mBu‰Ú4
+;
+
+69 
+wxBu‰Ú
+* 
+	mBu‰Ú1
+;
+
+70 
+wxBu‰Ú
+* 
+	mBu‰Ú2
+;
+
+71 
+wxBu‰Ú
+* 
+	mBu‰Ú3
+;
+
+72 
+wxBu‰Ú
+* 
+	mBu‰Ú12
+;
+
+73 
+wxTextCŒl
+* 
+	mpŞe
+;
+
+74 
+wxBu‰Ú
+* 
+	mBu‰Ú8
+;
+
+75 
+wxBu‰Ú
+* 
+	mBu‰Ú5
+;
+
+76 
+wxBu‰Ú
+* 
+	mBu‰Ú17
+;
+
+77 
+wxBu‰Ú
+* 
+	mBu‰Ú9
+;
+
+78 
+wxBu‰Ú
+* 
+	mBu‰Ú15
+;
+
+79 
+wxBu‰Ú
+* 
+	mBu‰Ú14
+;
+
+80 
+wxBu‰Ú
+* 
+	mBu‰Ú18
+;
+
+81 
+wxBu‰Ú
+* 
+	mBu‰Ú11
+;
+
+82 
+wxBu‰Ú
+* 
+	mBu‰Ú7
+;
+
+83 
+wxBu‰Ú
+* 
+	mBu‰Ú6
+;
+
+84 
+wxBu‰Ú
+* 
+	mBu‰Ú13
+;
+
+85 
+wxBu‰Ú
+* 
+	mBu‰Ú10
+;
+
+86 
+wxBu‰Ú
+* 
+	mBu‰Ú20
+;
+
+89 
+DECLARE_EVENT_TABLE
+()
+
+	@
+1
+.
+1
+/usr/include
+7
+291
+/home/student/Pulpit/Kalkulator/KalkulatorApp.cpp
+/home/student/Pulpit/Kalkulator/KalkulatorApp.h
+/home/student/Pulpit/Kalkulator/KalkulatorMain.cpp
+/home/student/Pulpit/Kalkulator/KalkulatorMain.h
+/home/student/Pulpit/Kalkulator/wxsmith/Kalkulatorframe.wxs
+KalkulatorApp.h
+KalkulatorMain.h
