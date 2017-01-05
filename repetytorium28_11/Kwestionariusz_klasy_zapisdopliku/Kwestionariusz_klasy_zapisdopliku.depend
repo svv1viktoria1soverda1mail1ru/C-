@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480891107 source:c:\users\wika\documents\c\kwestionariusz_klasy_zapisdopliku\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+

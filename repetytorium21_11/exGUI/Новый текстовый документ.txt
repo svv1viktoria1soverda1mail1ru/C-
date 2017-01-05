@@ -1,0 +1,45 @@
+wxString zamienNaDwojkowy(wxString liczba)
+
+{
+    wxString wynik;
+    double value;
+    if(liczba.ToDouble(&value))
+    {
+        int czesc_calk = (int) value;
+        double czesc_ul = value - czesc_calk;
+        std::stack < int > stosLiczb;
+        while (!(czesc_calk==0))
+        {
+            stosLiczb.push(czesc_calk%2);
+            czesc_calk=czesc_calk/2;//czesc_calk=(int)((double)czesc_calk/(double)2);
+        }
+        while( stosLiczb.empty() == false )
+        {
+            wynik<< stosLiczb.top();
+            stosLiczb.pop();
+        }
+        wynik=wynik+".";
+        std::stack < int > stosLiczb1;
+        while (!(czesc_ul==1))
+        {
+            double temp;
+            temp =czesc_ul*2;
+            if (temp>1){
+                stosLiczb1.push(1);
+                czesc_ul=temp-1.0;
+            }else if(temp<1){
+                stosLiczb1.push(0);
+                czesc_ul=temp;
+            } else if(temp==1){
+            stosLiczb1.push(1);
+                break;
+            }
+
+        }
+        while( stosLiczb1.empty() == false )
+        {
+            wynik<< stosLiczb1.top();
+            stosLiczb1.pop();
+        }
+        return wynik;
+    }

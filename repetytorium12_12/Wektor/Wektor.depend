@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1481547826 source:/home/student/Pulpit/Wektor/main.cpp
+	<iostream>
+	"Wektor.h"
+
+1481547445 /home/student/Pulpit/Wektor/include/Wektor.h
+	<iostream>
+
+1481546864 source:/home/student/Pulpit/Wektor/src/Wektor.cpp
+	"Wektor.h"
+	<cstdlib>
+	<ctime>
+	<cstring>
+
